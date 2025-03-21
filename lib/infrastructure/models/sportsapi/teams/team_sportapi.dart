@@ -17,7 +17,7 @@ class TeamSportapi {
         id: json["id"],
         name: json["name"],
         logo: json["logo"],
-        nationnal: json["nationnal"],
+        nationnal: json["nationnal"] ?? '',
         country: Country.fromJson(json["country"]),
       );
 

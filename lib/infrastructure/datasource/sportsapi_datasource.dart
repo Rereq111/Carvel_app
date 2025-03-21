@@ -12,10 +12,10 @@ import 'package:carvel_app/domain/entities/player.dart';
 import 'package:dio/dio.dart';
 
 class SportsapiDatasource extends PlayersDatasource {
-  final dio =
-      Dio(BaseOptions(baseUrl: 'https://v2.nba.api-sports.io//', headers: {
+  final dio = Dio(
+      BaseOptions(baseUrl: 'https://v1.basketball.api-sports.io/', headers: {
     'x-rapidapi-key': Environment.sportApiKey, // API key
-    'x-rapidapi-host': 'v2.nba.api-sports.io', // Host (si es necesario)
+    'x-rapidapi-host': 'v1.basketball.api-sports.io', // Host (si es necesario)
   }));
 
   @override
