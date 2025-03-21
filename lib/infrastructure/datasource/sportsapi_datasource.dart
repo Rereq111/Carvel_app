@@ -5,7 +5,6 @@ import '../mappers/player_mapper.dart';
 import '../mappers/statistic_mapper.dart';
 import '../mappers/team_mapper.dart';
 import '../models/sportsapi/players/sportsapi_response.dart';
-import '../models/sportsapi/statistics/statistics_sportapi_response.dart';
 import '../models/sportsapi/teams/team_sportapi_response.dart';
 import 'package:carvel_app/config/constants/environment.dart';
 import 'package:carvel_app/domain/entities/player.dart';
