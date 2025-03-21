@@ -13,7 +13,6 @@ class StatisticsScreen extends StatelessWidget {
 
     return Scaffold(
         appBar: AppBar(title: const Text('Estadísticas del Equipo')),
-        backgroundColor: theme.colorScheme.primary,
         body: const _StatisticsScreen());
   }
 }
